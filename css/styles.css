@@ -511,174 +511,161 @@ section {
 
 /* .------------------------------------------------  blogs -------------------------------------- */
 
-.blogs .box-container{
+.blogs .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(32rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
-  margin-bottom:5rem;
+  margin-bottom: 5rem;
 }
 
-.blogs .box-container .box{
+.blogs .box-container .box {
   border-radius: 1rem;
   background: #fff;
   box-shadow: rgba(17 17 17 / 15%) 0 0.5rem 1rem;
   overflow: hidden;
 }
 
-
-
-.blogs .box-container .box:hover{
+.blogs .box-container .box:hover {
   transform: scale(1.1);
 }
 
-
-
-.blogs .box-container .box:hover .image img{
+.blogs .box-container .box:hover .image img {
   transform: scale(1.1);
 }
 
-.blogs .box-container .box .image{
+.blogs .box-container .box .image {
   height: 25rem;
   overflow: hidden;
   width: 100%;
-
 }
 
-
-.blogs .box-container .box .image img{
+.blogs .box-container .box .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.blogs .box-container .box .content{
+.blogs .box-container .box .content {
   padding: 2rem;
 }
 
-.blogs .box-container .box .content .link{
-
+.blogs .box-container .box .content .link {
   font-size: 2rem;
   color: #000;
-
 }
 
-
-.blogs .box-container .box .content .link:hover{
+.blogs .box-container .box .content .link:hover {
   color: #d9296f;
 }
 
-.blogs .box-container .box .content p{
+.blogs .box-container .box .content p {
   font-size: 1.4rem;
   line-height: 2;
   color: #000;
   padding: 1rem 0;
 }
 
-.blogs .box-container .box .content .icon{
+.blogs .box-container .box .content .icon {
   padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.blogs .box-container .box .content .icon a{
+.blogs .box-container .box .content .icon a {
   font-size: 1.4rem;
   color: #3d3d3d;
 }
 
-.blogs .box-container .box .content .icon a:hover{
+.blogs .box-container .box .content .icon a:hover {
   color: #d9296f;
 }
 
-.blogs .box-container .box .content .icon a i{
-padding-right: .5rem;
-color: #d9296f;
-}
-
-/* .------------------------------------------------  footer -------------------------------------- */
-.footer{
-  background: #fff;
-  box-shadow: rgba(17 17 17 / 15%) 0 0.5rem 1rem ;
-}
-
-.footer .box-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
-  gap: 1rem;
-}
-
-.footer .box-container .box{
-  padding: 1rem 0;
-}
-
-.footer .box-container .box .logo{
-  padding-bottom: 1rem;
-}
-
-.footer .box-container .box h3{
-  font-size: 2.2rem;
-  color: #000;
-  padding: 1rem 0;
-
-}
-
-
-.footer .box-container .box p{
-font-size: 1.4rem;
-color: #3d3d3d;
-padding: 1rem 0;
-line-height: 2; 
-}
-
-
-.footer .box-container .box p i{
+.blogs .box-container .box .content .icon a i {
   padding-right: 0.5rem;
   color: #d9296f;
 }
-.footer .box-container  .box .share {
+
+/* .------------------------------------------------  footer -------------------------------------- */
+.footer {
+  background: #fff;
+  box-shadow: rgba(17 17 17 / 15%) 0 0.5rem 1rem;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1rem;
+}
+
+.footer .box-container .box {
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .logo {
+  padding-bottom: 1rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #000;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box p {
+  font-size: 1.4rem;
+  color: #3d3d3d;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.footer .box-container .box p i {
+  padding-right: 0.5rem;
+  color: #d9296f;
+}
+.footer .box-container .box .share {
   padding-top: 1rem;
 }
-.footer .box-container .box .share a{
- 
+.footer .box-container .box .share a {
   height: 4.5rem;
-  width: 4.5rem;line-height: 4rem;
+  width: 4.5rem;
+  line-height: 4rem;
   font-size: 2rem;
   border-radius: 50%;
   font-size: 1.7rem;
   border: 0.2rem solid #d9296f;
   color: #d9296f;
-  
+
   margin-right: 0.5rem;
   text-align: center;
 }
 
-.footer .box-container .box .share a:hover{
-  background: #d9296f;color: #f8f9fb;
-
+.footer .box-container .box .share a:hover {
+  background: #d9296f;
+  color: #f8f9fb;
 }
 
-.footer .box-container .box .links{
+.footer .box-container .box .links {
   font-size: 1.4rem;
   color: #3d3d3d;
-padding: 1rem 0;
-display: block;
+  padding: 1rem 0;
+  display: block;
 }
 
-.footer .box-container .box .links:hover{
+.footer .box-container .box .links:hover {
   color: #d9296f;
 }
 
-.footer .box-container .box .links i{
-  padding-right: .5rem;
+.footer .box-container .box .links i {
+  padding-right: 0.5rem;
   color: #d9296f;
 }
 
-.footer .box-container .box .links:hover i{
+.footer .box-container .box .links:hover i {
   padding-right: 2rem;
 }
 
-
-.footer .box-container .box form .email{
+.footer .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
   border: 0.2rem solid #d9296f;
@@ -687,20 +674,68 @@ display: block;
   text-transform: capitalize;
   color: #3d3d3d;
   margin-bottom: 1rem;
-  padding: 1.2rem  1.4rem;
-
+  padding: 1.2rem 1.4rem;
 }
 
-
-.credit{
-  background:#242424;
-  box-shadow: rgba(17 17 17 / 15%) 0  0.5rem 1rem ;
+.credit {
+  background: #242424;
+  box-shadow: rgba(17 17 17 / 15%) 0 0.5rem 1rem;
   text-align: center;
   font-size: 2rem;
   padding: 2rem 1rem;
   color: #f8f9fb;
 }
 
-.credit span{
+.credit span {
   color: #d9296f;
+}
+
+/* .------------------------------------------------  responsive -------------------------------------- */
+@media (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    display: none;
+    /* position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
+  }
+  .header .navbar.active {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50vh;
+    background: #eee;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* or any other styles you want to apply when the menu is active */
+}
+
+
+  .header .navbar a {
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
 }
